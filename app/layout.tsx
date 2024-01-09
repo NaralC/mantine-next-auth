@@ -7,7 +7,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 const theme = createTheme({
-  // Create theme here
+  cursorType: "pointer"
 });
 
 export const metadata = {
